@@ -1,0 +1,47 @@
+@import "../../sass/variables/variables.scss";
+@import "../../sass/mixins/mixins.scss";
+
+.start-screen {
+	background-color: $dark-blue;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 4rem 4rem 8rem;
+	position: relative;
+
+	.credit {
+		color: $primary-white;
+
+		a:link, a:visited {
+			color: $primary-orange;
+		}
+	}
+
+	@include respond(500px) {
+		padding: 3rem 3rem 8rem;
+	}
+}
+
+.game-config-tab {
+	background-color: $primary-white;
+	border-radius: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	row-gap: 3.2rem;
+	padding: 5.6rem;
+	width: 60rem;
+
+	@include respond(500px) {
+		width: calc(100vw - 6rem);
+	}
+
+	@include respond(400px) {
+		padding: 4rem;
+	}
+
+	.start-game-button {
+		padding: 1.6rem;
+	}
+}

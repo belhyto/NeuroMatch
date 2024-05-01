@@ -1,0 +1,70 @@
+@import "../../sass/variables/variables.scss";
+@import "../../sass/mixins/mixins.scss";
+
+.game-screen {
+	background-color: $primary-white;
+	padding: 6.4rem 6.4rem 8rem;
+	position: relative;
+	min-height: 100vh;
+
+	@include respond(500px) {
+		padding: 4rem 4rem 8rem;
+	}
+
+	@include respond(400px) {
+		padding: 4rem 2.8rem 8rem;
+	}
+
+	.credit {
+		color: $secondary-blue;
+
+		@include respond(500px) {
+			right: 4rem;
+		}
+
+		@include respond(400px) {
+			right: 2.8rem;
+			bottom: 2.8rem;
+		}
+
+		a:link, a:visited {
+			color: $primary-blue;
+		}
+	}
+}
+
+.header-section {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	.control-buttons {
+		button {
+			padding: 1.6rem 2.4rem;
+
+			&:not(:first-of-type) {
+				margin-left: 1.6rem;
+
+				@include respond(800px) {
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+.game-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 10rem;
+
+	@include respond(500px) {
+		margin-top: 12rem;
+	}
+}
+
+.stat-bar {
+	padding: 2rem;
+	width: 25rem;
+}
