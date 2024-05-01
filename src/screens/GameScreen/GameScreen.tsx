@@ -163,6 +163,7 @@ function GameScreen(props: Props): JSX.Element {
 
 	return (
 		<main className="game-screen">
+			
 			<header className="header-section">
 				<h1 className="app-title">Memory</h1>
 
@@ -234,11 +235,7 @@ function GameScreen(props: Props): JSX.Element {
 				)}
 			</section>
 
-			<p className="credit">
-				<a href="https://zakariyaq313.github.io/my-website/" target="_blank" rel="noreferrer">
-					Go Back to home Page
-				</a>
-			</p>
+			
 		</main>
 	);
 }

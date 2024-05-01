@@ -37,35 +37,7 @@ export const gameConfig: GameConfigType[] = [
 			}
 		]
 	},
-	{
-		title: "Number Of Players",
-		options: [
-			{
-				value: "1",
-				label: "1",
-				groupName: "numberOfPlayers",
-				isChecked: true
-			},
-			{
-				value: "2",
-				label: "2",
-				groupName: "numberOfPlayers",
-				isChecked: false
-			},
-			{
-				value: "3",
-				label: "3",
-				groupName: "numberOfPlayers",
-				isChecked: false
-			},
-			{
-				value: "4",
-				label: "4",
-				groupName: "numberOfPlayers",
-				isChecked: false
-			}
-		]
-	},
+	
 	{
 		title: "Grid Size",
 		options: [

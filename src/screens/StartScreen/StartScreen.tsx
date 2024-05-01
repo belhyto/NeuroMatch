@@ -72,7 +72,7 @@ function StartScreen(props: Props): JSX.Element {
 	return (
 		<main className="start-screen">
 			<form className="game-config-tab">
-				<h1 className="app-title">Memory</h1>
+				<h1 className="app-title">Neuromatch</h1>
 
 				{gameConfig.map((gameConfigGroup) => (
 					<div key={gameConfigGroup.title} className={`option-group 
@@ -96,11 +96,6 @@ function StartScreen(props: Props): JSX.Element {
 				</button>
 			</form>
 
-			<p className="credit">Created by
-				<a href="https://zakariyaq313.github.io/my-website/" target="_blank" rel="noreferrer">
-					Muhammad Zakariya
-				</a>
-			</p>
 		</main>
 	);
 }
