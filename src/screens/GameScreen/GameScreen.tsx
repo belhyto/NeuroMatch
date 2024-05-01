@@ -234,9 +234,9 @@ function GameScreen(props: Props): JSX.Element {
 				)}
 			</section>
 
-			<p className="credit">Created by
+			<p className="credit">
 				<a href="https://zakariyaq313.github.io/my-website/" target="_blank" rel="noreferrer">
-					Muhammad Zakariya
+					Go Back to home Page
 				</a>
 			</p>
 		</main>
