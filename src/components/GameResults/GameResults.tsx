@@ -20,7 +20,7 @@ function GameResults(props: Props): JSX.Element {
 		onStartNewGame,
 		onRestartGame
 	} = props;
-	const [resultHeading, setResultHeading] = useState("Game results");
+	
 
 	useLayoutEffect(() => {
 		const highScoringPlayers: string[] = [];
@@ -31,11 +31,7 @@ function GameResults(props: Props): JSX.Element {
 			}
 		}
 
-		if (highScoringPlayers.length === 1) {
-			setResultHeading(`${highScoringPlayers[0]} won!`);
-		} else {
-			setResultHeading("It's a tie!");
-		}
+		
 	}, [highScore, playerStats]);
 
 	const restartGame = () => {
