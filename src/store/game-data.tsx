@@ -49,7 +49,7 @@ export const gameConfig: GameConfigType[] = [
 			},
 			{
 				value: "six",
-				label: "6 x 6",
+				label: "Medium",
 				groupName: "gridSize",
 				isChecked: false
 			}
