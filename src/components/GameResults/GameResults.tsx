@@ -57,7 +57,6 @@ function GameResults(props: Props): JSX.Element {
 								<p className="card-description">Were you really even playing? :)</p>
 							</Fragment>
 						)}
-
 						{!gameTimedOut && (
 							<Fragment>
 								<h1 className="card-heading">You did it!</h1>
@@ -78,31 +77,6 @@ function GameResults(props: Props): JSX.Element {
 						</div>
 					</Fragment>
 				)}
-
-				{/* Multiplayer end results */}
-				{numberOfPlayers > 1 && (
-					<Fragment>
-						<h1 className="card-heading">{resultHeading}</h1>
-						<p className="card-description">Game over! Here are the results...</p>
-
-						<div className="result-bars">
-							{playerStats.map((player) => (
-								<div key={player.playerNumber} className={`result-bar info-bar 
-								${player.score === highScore ? "winner" : ""}`}>
-									<h3 className="bar-label">
-										{player.label}
-										{player.score === highScore && " (Winner!)"}
-									</h3>
-
-									<h2 className="bar-value">
-										{player.score} {player.score === 1 ? "Pair" : "Pairs"}
-									</h2>
-								</div>
-							))}
-						</div>
-					</Fragment>
-				)}
-
 				<div className="control-buttons">
 					<button onClick={restartGame} className="orange-button">Play Again</button>
 					<button onClick={startNewGame} className="gray-button">New Game</button>

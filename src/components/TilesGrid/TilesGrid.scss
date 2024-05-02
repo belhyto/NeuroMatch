@@ -77,7 +77,6 @@
 .six-tiles-column {
 	grid-template-columns: repeat(6, 8rem);
 	gap: 1rem;
-
 	@include respond(500px) {
 		grid-template-columns: repeat(6, calc(16.5vw - 2rem));
 	}

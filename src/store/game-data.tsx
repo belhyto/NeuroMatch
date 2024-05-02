@@ -25,7 +25,7 @@ export const gameConfig: GameConfigType[] = [
 		options: [
 			{
 				value: "icons",
-				label: "Icons",
+				label: "Pictures",
 				groupName: "gameTheme",
 				isChecked: true
 			},
@@ -39,11 +39,11 @@ export const gameConfig: GameConfigType[] = [
 	},
 	
 	{
-		title: "Grid Size",
+		title: "Difficulty",
 		options: [
 			{
 				value: "four",
-				label: "4 x 4",
+				label: "Easy",
 				groupName: "gridSize",
 				isChecked: true
 			},

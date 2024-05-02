@@ -165,7 +165,7 @@ function GameScreen(props: Props): JSX.Element {
 		<main className="game-screen">
 			
 			<header className="header-section">
-				<h1 className="app-title">Memory</h1>
+				<h1 className="app-title">Neuromatch</h1>
 
 				<div className="control-buttons">
 					<button onClick={pauseGame} className="orange-button" disabled={gameCompleted}>Pause</button>

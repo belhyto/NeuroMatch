@@ -1,0 +1,42 @@
+[
+    {
+      "game_id": 1,
+      "time_taken": {
+        "minutes": 2,
+        "seconds": 30
+      },
+      "moves_taken": 25
+    },
+    {
+      "game_id": 2,
+      "time_taken": {
+        "minutes": 1,
+        "seconds": 45
+      },
+      "moves_taken": 20
+    },
+    {
+      "game_id": 3,
+      "time_taken": {
+        "minutes": 3,
+        "seconds": 15
+      },
+      "moves_taken": 30
+    },
+    {
+      "game_id": 4,
+      "time_taken": {
+        "minutes": 1,
+        "seconds": 0
+      },
+      "moves_taken": 15
+    },
+    {
+      "game_id": 5,
+      "time_taken": {
+        "minutes": 0,
+        "seconds": 45
+      },
+      "moves_taken": 28
+    }
+  ]
